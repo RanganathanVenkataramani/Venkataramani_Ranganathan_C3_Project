@@ -84,7 +84,7 @@ class RestaurantTest {
     @Test
     public void return_order_total_of_all_the_selected_items(){
         String[] items = {"Sweet corn soup", "Vegetable lasagne"};
-        int orderTotal = restuarant.orderTotal(items);
+        int orderTotal = restaurant.orderTotal(items);
         assertEquals(388, orderTotal);
     }
 
